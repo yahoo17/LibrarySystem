@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addbook.cpp" />
+    <ClCompile Include="adminLogin.cpp" />
     <ClCompile Include="borrowbook.cpp" />
     <ClCompile Include="dataStructure.cpp" />
     <ClCompile Include="deleteBookData.cpp" />
@@ -160,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addbook.h" />
+    <ClInclude Include="adminLogin.h" />
     <ClInclude Include="borrowbook.h" />
     <ClInclude Include="dataStructure.h" />
     <ClInclude Include="deleteBookData.h" />

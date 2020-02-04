@@ -1,0 +1,15 @@
+﻿  addbook.cpp
+  adminLogin.cpp
+  borrowbook.cpp
+  dataStructure.cpp
+  deleteBookData.cpp
+  findbook.cpp
+  initialize.cpp
+  LibrarySystem.cpp
+  printBookData.cpp
+  txtAntiParser.cpp
+  txtParser.cpp
+C:\Users\DELL\Desktop\gitLB\LibrarySystem\txtParser.cpp(12,35): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DELL\Desktop\gitLB\LibrarySystem\txtParser.cpp(13,57): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  LibrarySystem.vcxproj -> C:\Users\DELL\Desktop\gitLB\LibrarySystem\x64\Debug\LibrarySystem.exe

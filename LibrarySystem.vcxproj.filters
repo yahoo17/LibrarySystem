@@ -45,6 +45,9 @@
     <ClCompile Include="deleteBookData.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="adminLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addbook.h">
@@ -72,6 +75,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="deleteBookData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adminLogin.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
