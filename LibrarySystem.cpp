@@ -1,12 +1,12 @@
 ﻿
 #include <iostream>
-#include <C:\Users\DELL\source\repos\LibrarySystem\addbook.h>
-#include <C:\Users\DELL\source\repos\LibrarySystem\initialize.h>
-#include <C:\Users\DELL\source\repos\LibrarySystem\borrowbook.h>
-#include  <C:\Users\DELL\source\repos\LibrarySystem\findbook.h>
-#include  <C:\Users\DELL\source\repos\LibrarySystem\printBookData.h>
-#include  <C:\Users\DELL\source\repos\LibrarySystem\deleteBookData.h>
-#include <C:\Users\DELL\source\repos\LibrarySystem\adminLogin.h>
+#include "addbook.h"
+#include "initialize.h"
+#include "borrowbook.h"
+#include  "findbook.h"
+#include  "printBookData.h"
+#include  "deleteBookData.h"
+#include "adminLogin.h"
 #include <iomanip>
 using namespace std;
 
@@ -21,6 +21,8 @@ int main()
         cout << "                 "<< "Welcome to Library Management System"<<endl<<endl;
         cout << "1.管理员登录" << endl;
         cout << "2.用户登陆" << endl;
+        cout << "3.用户注册" << endl;
+
         int userOrAdmin;
         cin >> userOrAdmin;
         static bool adminState=0;
@@ -116,6 +118,11 @@ int main()
             default:
                 break;
             }
+            break;
+        }
+        case 3:
+        {
+           
             break;
         }
         default:

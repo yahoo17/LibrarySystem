@@ -1,8 +1,8 @@
-#include <C:\Users\DELL\source\repos\LibrarySystem\addbook.h>
+#include"addbook.h"
 using namespace std;
 void writeBookData(bookDataStruct object)
 {
-	ofstream write("C:\\Users\\DELL\\source\\repos\\LibrarySystem\\book.txt", ios::app);
+	ofstream write("book.txt", ios::app);
 	write << object.getBookName() <<'#'<< object.getBookID()<<'#'<<object.getBookNumber() << endl;
 }
 void addbook()

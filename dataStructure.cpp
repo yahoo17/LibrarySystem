@@ -1,5 +1,5 @@
 
-#include <C:\Users\DELL\source\repos\LibrarySystem\dataStructure.h>
+#include"dataStructure.h"
 
 	bookDataStruct::bookDataStruct()
 	{

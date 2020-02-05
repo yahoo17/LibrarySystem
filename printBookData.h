@@ -1,6 +1,6 @@
-#include <C:\\Users\\DELL\\source\\repos\\LibrarySystem\\txtParser.h>
+#include "txtParser.h"
 #include <fstream>
 #include <iostream>
-#include <C:\Users\DELL\source\repos\LibrarySystem\dataStructure.h>
+#include"dataStructure.h"
 using namespace std;
 void printBookData();

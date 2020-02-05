@@ -1,4 +1,4 @@
-#include <C:\Users\DELL\source\repos\LibrarySystem\adminLogin.h>
+#include "adminLogin.h"
 bool adminLogin()
 {
 	cout << "ÇëÊäÈëÄãµÄÃÜÂë" << endl;

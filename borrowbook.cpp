@@ -1,5 +1,5 @@
 
-#include <C:\Users\DELL\source\repos\LibrarySystem\borrowbook.h>
+#include"borrowbook.h"
 
 
 bool borrowbook()
@@ -20,7 +20,7 @@ bool borrowbook()
 		cin >> bookName;
 		//本来应该是直接修改文件的对吧
 		//我这里是把文件全部读到内存中，然后修改完再全部写回去
-		fstream bookfile("C:\\Users\\DELL\\source\\repos\\LibrarySystem\\book.txt");
+		fstream bookfile("book.txt");
 		vector<bookDataStruct> bookData = txtParser(bookfile);
 		vector<bookDataStruct> rf(bookData);
 		for (bookDataStruct& x : rf)
@@ -50,7 +50,7 @@ bool borrowbook()
 	}
 	case 2:
 	{
-		fstream bookfile("C:\\Users\\DELL\\source\\repos\\LibrarySystem\\book.txt");
+		fstream bookfile("book.txt");
 		vector<bookDataStruct> bookData = txtParser(bookfile);
 		vector<bookDataStruct> rf(bookData);
 		cout << "请输入你要借阅的书的编号" << endl;

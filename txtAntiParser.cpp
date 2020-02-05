@@ -1,7 +1,7 @@
-#include <C:\Users\DELL\source\repos\LibrarySystem\txtAntiParser.h>
+#include"txtAntiParser.h"
 void txtAntiParser(vector<bookDataStruct> bookVector)
 {
-	fstream fileBeRead("C:\\Users\\DELL\\source\\repos\\LibrarySystem\\book.txt",ios::out);
+	fstream fileBeRead("book.txt",ios::out);
 	for (auto x : bookVector)
 	{
 		fileBeRead << x.getBookName() << "#" << x.getBookID() << "#" << x.getBookNumber() << endl;

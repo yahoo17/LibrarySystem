@@ -1,4 +1,4 @@
-#include  <C:\Users\DELL\source\repos\LibrarySystem\findbook.h>
+#include "findbook.h"
 bool findbook()
 {
 	cout << "请问您是用名字查询还是用编号查询" << endl;
@@ -7,7 +7,7 @@ bool findbook()
 	int switchNum;
 	cin >> switchNum;
 	bool findOrNot = false;
-	fstream bookfile("C:\\Users\\DELL\\source\\repos\\LibrarySystem\\book.txt");
+	fstream bookfile("book.txt");
 	vector<bookDataStruct> bookData = txtParser(bookfile);
 	string buffer;
 	switch (switchNum)
