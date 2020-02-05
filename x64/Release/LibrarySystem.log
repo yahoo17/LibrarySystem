@@ -1,13 +1,6 @@
-﻿  addbook.cpp
-  borrowbook.cpp
-  deleteBookData.cpp
-  findbook.cpp
-  printBookData.cpp
-  txtAntiParser.cpp
-  userSignUp.cpp
-  正在生成代码
-  9 of 300 functions ( 3.0%) were compiled, the rest were copied from previous compilation.
+﻿  正在生成代码
+  0 of 300 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   LibrarySystem.vcxproj -> C:\Users\DELL\Desktop\gitLB\LibrarySystem\x64\Release\LibrarySystem.exe

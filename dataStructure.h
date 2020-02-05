@@ -23,5 +23,24 @@ public:
 };
 //随便重载一下输出运算符
 void printObj(bookDataStruct& bk);
+class userDataStruct
+{
+public:
 
+	userDataStruct(long long phone, long long id, char * name, char * password);
+private:
+	long long m_phoneNumber;
+	long long m_IdNumber;
+	char * m_name;
+	char  * m_password;
+
+public:
+	long long getPhoneNumber();
+	long long getIdNumber();
+	char * getPassword();
+
+
+
+
+};
 #pragma once 
