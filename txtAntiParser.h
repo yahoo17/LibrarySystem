@@ -1,9 +1,12 @@
+#ifndef TXTANTIPARSER
+#define TXTANTIPARSER
 
-#pragma once
+
 #include <iostream>
 #include <fstream>
 #include"dataStructure.h"
 #include <string>
 #include <vector>
 using namespace std;
-void txtAntiParser(vector<bookDataStruct> );
+void txtAntiParser(vector<bookDataStruct>);
+#endif // !TXTANTIPARSER

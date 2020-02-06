@@ -1,3 +1,8 @@
+#ifndef DATASTRUCTURE_H
+#define DATASTRUCTURE_H
+
+
+
 #include <string>
 #include <iostream>
 #include <iomanip>
@@ -43,4 +48,4 @@ public:
 
 
 };
-#pragma once 
+#endif // !DATASTRUCTURE_H

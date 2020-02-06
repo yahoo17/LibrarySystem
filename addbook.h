@@ -1,3 +1,5 @@
+#ifndef ADDBOOK_H
+#define	ADDBOOK_H
 
 #include"dataStructure.h"
 
@@ -9,4 +11,6 @@
 using namespace std;
 void addbook();
 void writeBookData(bookDataStruct obj);
-#pragma once
+
+#endif // !ADDBOOK_H
+

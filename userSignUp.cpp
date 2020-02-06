@@ -1,5 +1,5 @@
 #include "userSignUp.h"
-void userSignUP()
+void userSignUp()
 {
 	fstream file("userData.txt",ios::binary);
 	char c[]= "yanhao";

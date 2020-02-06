@@ -51,6 +51,9 @@
     <ClCompile Include="userSignUp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="userLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addbook.h">
@@ -84,6 +87,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="userSignUp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="userLogin.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

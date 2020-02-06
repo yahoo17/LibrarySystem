@@ -158,6 +158,7 @@
     <ClCompile Include="printBookData.cpp" />
     <ClCompile Include="txtAntiParser.cpp" />
     <ClCompile Include="txtParser.cpp" />
+    <ClCompile Include="userLogin.cpp" />
     <ClCompile Include="userSignUp.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +172,7 @@
     <ClInclude Include="printBookData.h" />
     <ClInclude Include="txtAntiParser.h" />
     <ClInclude Include="txtParser.h" />
+    <ClInclude Include="userLogin.h" />
     <ClInclude Include="userSignUp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

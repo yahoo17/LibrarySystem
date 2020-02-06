@@ -1,5 +1,15 @@
+#ifndef ADMINLOGIN_H
+#define ADMINLOGIN_H
+
 #include <iostream>
 #include <string>
 using namespace std;
 bool adminLogin();
-#pragma once
+
+
+#endif // !ADMINLOGIN_H
+
+
+
+
+

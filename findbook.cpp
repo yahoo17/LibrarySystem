@@ -2,8 +2,8 @@
 bool findbook()
 {
 	cout << "请问您是用名字查询还是用编号查询" << endl;
-	cout << "1.用名字(实现方式1)" << endl;
-	cout << "2.用编号(实现方式2)" << endl;
+	cout << "1.用名字" << endl;
+	cout << "2.用编号" << endl;
 	int switchNum;
 	cin >> switchNum;
 	bool findOrNot = false;

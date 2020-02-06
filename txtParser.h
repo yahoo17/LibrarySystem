@@ -1,3 +1,7 @@
+#ifndef TXTPARSER_H
+#define TXTPARSER_H
+
+
 
 #include <fstream>
 #include <iostream>
@@ -6,4 +10,11 @@
 #include"dataStructure.h"
 using namespace std;
 vector<bookDataStruct> txtParser(fstream& file);
-#pragma once
+
+
+
+
+
+#endif // !TXTPARSER_H
+
+
